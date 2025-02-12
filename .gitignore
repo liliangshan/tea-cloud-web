@@ -1,0 +1,4 @@
+# .gitignore 配置
+.idea/
+.env
+*.key

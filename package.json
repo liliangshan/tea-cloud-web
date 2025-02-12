@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "vite",  // 启动开发服务器
+    "build": "vite build",  // 生产构建
+    "preview": "vite preview",  // 本地预览
+    "lint": "eslint --ext .js,.vue src",  // 代码检查
+    "storybook": "start-storybook -p 6006"  // 组件文档
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "vue": "^3.2.37",
+    "swiper": "^8.4.5"  // 轮播库
+  }
+}
